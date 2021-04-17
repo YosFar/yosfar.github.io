@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	background-image: url(../img/galaxy.jpg);
+	
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	padding: 0;
+}
+.wrapper {
+	background-color: #6e6899c9;
+	border-radius: 10px;
+	
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+}
+section {
+	
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+footer {
+	flex-basis: 33%;
+}
+p, [for="abtype"] {
+	margin: 2rem 0 0 0;
+}
+fieldset{
+	border:1px solid #84A6CC ;
+	border-radius: 10px;
+	margin-bottom:2rem;
+
+}
+
+legend{
+ font-weight: bold;
+ font-size: 1.3rem;
+ margin-top: 1.5rem;
+ margin-bottom: 1rem;
+}
+label{
+	padding: 0.3rem;
+display: block;
+
+}
+textarea{
+	height: 10rem;
+	padding: 1rem;
+}
+select {
+	font-size: 1rem;
+}
+button {
+	color:rgb(255, 255, 255);
+font-size: 1rem;
+margin: 2rem 0;
+background-color:#4B79A3 ;
+border-radius: 10px;
+border: none;
+padding: 0.5rem 1rem;
+
+}
+button:hover{
+	background-color: white;
+	color: #4B79A3;
+
+}
+input:not([type="radio"]):not([type="checkbox"]), textarea, select {
+	display: block;
+	margin-bottom: 2rem;
+	width: 20rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: 0 1rem ;
+	border-radius: 10px;
+	border: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
